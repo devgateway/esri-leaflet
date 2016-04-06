@@ -4,22 +4,22 @@
 
     var _getTileUrl = function(tileType) { 
 	  switch(tileType) {
-	  case "Streets": return '//localhost:8084/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
-	  case "Topographic": return '//localhost:8084/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}';
-	  case "Oceans": return '//localhost:8084/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}';
-	  case "OceanLabels": return '//localhost:8084/arcgis/rest/services/Ocean/World_Ocean_Reference/MapServer/tile/{z}/{y}/{x}';
-	  case "NationalGeographic": return '//localhost:8084/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}';
-	  case "DarkGray": return '//localhost:8084/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}';
-	  case "DarkGrayLabels": return '//localhost:8084/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}';
-	  case "Gray": return '//localhost:8084/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}';
-	  case "GrayLabels": return '//localhost:8084/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}';
-	  case "Imagery": return '//localhost:8084/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
-	  case "ImageryLabels": return '//localhost:8084/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}';
-	  case "ImageryTransportation": return '//localhost:8084/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}';
-	  case "ShadedRelief": return '//localhost:8084/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}';
-	  case "ShadedReliefLabels": return '//localhost:8084/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}';
-	  case "Terrain": return '//localhost:8084/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}';
-	  case "TerrainLabels": return '//localhost:8084/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}';
+	  case "Streets": return '//demo.ampsite.net:8084/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+	  case "Topographic": return '//demo.ampsite.net:8084/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}';
+	  case "Oceans": return '//demo.ampsite.net:8084/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}';
+	  case "OceanLabels": return '//demo.ampsite.net:8084/arcgis/rest/services/Ocean/World_Ocean_Reference/MapServer/tile/{z}/{y}/{x}';
+	  case "NationalGeographic": return '//demo.ampsite.net:8084/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}';
+	  case "DarkGray": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}';
+	  case "DarkGrayLabels": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}';
+	  case "Gray": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}';
+	  case "GrayLabels": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}';
+	  case "Imagery": return '//demo.ampsite.net:8084/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+	  case "ImageryLabels": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}';
+	  case "ImageryTransportation": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}';
+	  case "ShadedRelief": return '//demo.ampsite.net:8084/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}';
+	  case "ShadedReliefLabels": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}';
+	  case "Terrain": return '//demo.ampsite.net:8084/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}';
+	  case "TerrainLabels": return '//demo.ampsite.net:8084/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}';
 	  }
   }
   
